@@ -132,17 +132,16 @@ h3{
 .facts ul {
   display: grid;
   grid-template-columns: 33% 33% 33%;
-  padding: 20vh 0 0 0;
 }
 
 .feauture{
-  background-image: linear-gradient(to bottom, #321D5E, #1F123E, #493088, #886AB5) ;
+  background-image: linear-gradient(to bottom, #321D5E, #1F123E, #493088, #886AB5);
   padding: 10px 0 10px 0;
 }
 
 .facts li {
   background-color: black;
-  padding: 20px 50px;
+  padding: 10px 40px;
   margin: 0 10px 0 10px;
   border-radius: 10px;
 }
@@ -159,6 +158,12 @@ h3{
   background-repeat: no-repeat;
   background-size: cover;
   height: 50vh;
+}
+
+.explore{
+  background-image: linear-gradient(to bottom, #2D1D7A, #573170, #804565, #AA585B, #D36C50 ,#FD8046);
+  padding: 10px;
+  opacity: 90%;
 }
   
 /*Information Text*/
