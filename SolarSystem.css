@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/*Header*/
+.header{
+  background-image: url("/SolarSystemImg/SolarSystemHeader.png");
+    height: 80vh;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+/*Navigation Bar*/
+.navbar{
+  background-color: black;
+  color: whitesmoke;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  overflow: scroll;
+}
+
+.navbar li{
+  padding: 20px 50px;
+}
