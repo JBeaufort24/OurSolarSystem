@@ -10,6 +10,10 @@ body{
   color: antiquewhite;
 }
 
+p{
+  padding: 10px 20px;
+}
+
 /*Header*/
 .header{
   background-image: url("/SolarSystemImg/SolarSystemHeader.png");
@@ -17,6 +21,38 @@ body{
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
+   font-size: 2em;
+   text-align: center;
+}
+
+.header h1{
+  padding-top: 30vh;
+  font-size: 1em;
+}
+
+.header h2{
+  font-size: 1.1em;
+}
+
+h3{
+  padding: 10px 20px;
+  font-size: 1.5em;
+}
+
+.center-text h4{
+  font-weight: 900;
+  padding: 5px 0;
+  font-size: 1.3em;
+}
+
+.center-text li{
+  padding: 10px 0;
+  font-size: .9em;
+  margin-left: 50%;
+}
+
+.center-text h5{
+  font-size: 1em;
 }
 
 /*Navigation Bar*/
@@ -79,3 +115,18 @@ body{
   text-decoration-color: whitesmoke;
   text-underline-offset: 10px;
   }
+  
+/*Information Text*/
+.center-text{
+  text-align: center;
+}
+
+.right-text{
+  text-align: right;
+}
+
+/*ExsploreUniverseSection*/
+.explore{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
