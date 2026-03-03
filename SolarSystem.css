@@ -4,7 +4,7 @@
   list-style-type: none;
 }
 
-/*Body*/
+/*HTML, Body, Parapgraph*/
 body{
   background-color: black;
   color: antiquewhite;
@@ -115,6 +115,51 @@ h3{
   text-decoration-color: whitesmoke;
   text-underline-offset: 10px;
   }
+  
+/*Sections*/
+.overview {
+  background-image: url(/SolarSystemImg/SolarSystemOverview.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+}
+
+.overview p {
+  background-color: rgba(0, 0, 0, 0.30);
+}
+
+.facts ul {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  padding: 20vh 0 0 0;
+}
+
+.feauture{
+  background-image: linear-gradient(to bottom, #321D5E, #1F123E, #493088, #886AB5) ;
+  padding: 10px 0 10px 0;
+}
+
+.facts li {
+  background-color: black;
+  padding: 20px 50px;
+  margin: 0 10px 0 10px;
+  border-radius: 10px;
+}
+
+.detail-grid{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.moon{
+  text-align: right;
+  background-image: url(/SolarSystemImg/SolarMoons.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+}
   
 /*Information Text*/
 .center-text{
