@@ -4,6 +4,12 @@
   list-style-type: none;
 }
 
+/*Body*/
+body{
+  background-color: black;
+  color: antiquewhite;
+}
+
 /*Header*/
 .header{
   background-image: url("/SolarSystemImg/SolarSystemHeader.png");
@@ -24,5 +30,52 @@
 }
 
 .navbar li{
-  padding: 20px 50px;
+  padding: 50px 40px;
 }
+
+.navbar a{
+  text-decoration: none;
+}
+
+/*Planets Colors*/
+#sun{
+  color: orangered;
+}
+
+#mercury{
+  color: #856359;
+} 
+
+#venus{
+  color: #FFF9A8;
+}
+
+#earth{
+  color: #00AD3A;
+}
+
+#mars{
+  color: #D15E5E;
+}
+
+#jupiter{
+  color: #EBB271;
+}
+
+#saturn{
+  color: #EFFF58;
+}
+
+#uranus{
+  color: #0062FF;
+}
+
+#neptune{
+  color: #00FFD0;
+}
+
+.navbar a:hover{
+  text-decoration: underline;
+  text-decoration-color: whitesmoke;
+  text-underline-offset: 10px;
+  }
