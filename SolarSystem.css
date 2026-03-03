@@ -128,5 +128,22 @@ h3{
 /*ExsploreUniverseSection*/
 .explore{
   display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: 50% 50%;
+}
+
+/*Footer*/
+footer {
+  background: black;
+  padding: 15px 23px;
+  color: antiquewhite;
+  text-align: center;
+}
+
+footer span a {
+  color: red;
+  text-decoration: none;
+}
+
+footer span a:hover {
+  text-decoration: underline;
 }
