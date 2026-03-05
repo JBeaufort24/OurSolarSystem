@@ -74,6 +74,10 @@ h3{
 }
 
 /*Planets Colors*/
+#solar{
+  color: whitesmoke;
+}
+
 #sun{
   color: orangered;
 }
@@ -122,11 +126,15 @@ h3{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 50vh;
+  height: auto;
 }
 
 .overview p {
   background-color: rgba(0, 0, 0, 0.30);
+}
+
+.facts{
+  padding: 10px;
 }
 
 .facts ul {
@@ -134,21 +142,28 @@ h3{
   grid-template-columns: 33% 33% 33%;
 }
 
+.facts li {
+  background-color: black;
+  padding: 10px;
+  margin: 0 5px 0 5px;
+  border-radius: 100px;
+  text-align: center;
+  align-content: center;
+}
+
 .feauture{
   background-image: linear-gradient(to bottom, #321D5E, #1F123E, #493088, #886AB5);
   padding: 10px 0 10px 0;
 }
 
-.facts li {
-  background-color: black;
-  padding: 10px 40px;
-  margin: 0 10px 0 10px;
-  border-radius: 10px;
-}
-
 .detail-grid{
   display: grid;
   grid-template-columns: 50% 50%;
+  padding: 0 20px;
+}
+
+.column-2{
+  padding-top: 50%;
 }
 
 .moon{
@@ -157,7 +172,31 @@ h3{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 50vh;
+  height: auto;
+}
+
+.moon ul{
+  text-align: left;
+  padding: 0 10px;
+}
+
+.moon li{
+  padding: 5px 0;
+}
+
+table{
+  border-collapse: collapse;
+  text-align: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+td, th{
+  padding: 5px;
+}
+
+th{
+  background-color: grey;
 }
 
 .explore{
