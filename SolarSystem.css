@@ -98,6 +98,18 @@ h3{
   color: #856359;
 } 
 
+#MercuryHead{
+  background-image: url(/SolarSystemImg/MercuryHead.jpg);
+}
+
+#MercuryOverview{
+  background-image: url(/SolarSystemImg/MercuryOverview.jpg);
+}
+
+#MercuryFeauture{
+  background-image: linear-gradient(to bottom, #ecd67e, #d4bf65, #d4c99c, #5767b4, #858fdd);
+}
+
 #venus{
   color: #FFF9A8;
 }
