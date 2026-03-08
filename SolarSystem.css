@@ -141,11 +141,22 @@ h3{
 
 #EarthFeauture {
   background-image: linear-gradient(to bottom, #4f4cb0, #6b93d6, #e9eff9, #9fc164, #d8c596);
-  color: black;
 }
 
 #mars{
   color: #D15E5E;
+}
+
+#MarsHead {
+  background-image: url(/SolarSystemImg/MarsHead.jpg);
+}
+
+#MarsOverview {
+  background-image: url(/SolarSystemImg/MarsOverview.jpg);
+}
+
+#MarsFeauture {
+  background-image: linear-gradient(to bottom, #f48a36, #c77d4e, #b6732f, #725130, #b49b63)
 }
 
 #jupiter{
