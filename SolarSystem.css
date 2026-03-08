@@ -114,6 +114,19 @@ h3{
   color: #FFF9A8;
 }
 
+#VenusHead {
+  background-image: url(/SolarSystemImg/VenusHead.jpg);
+}
+
+#VenusOverview {
+  background-image: url(/SolarSystemImg/VenusOverview.jpg);
+}
+
+#VenusFeauture {
+  background-image: linear-gradient(to bottom, #a57c1b, #c18f17, #e39e1c, #f9c21a, #e7d520);
+  color: black;
+}
+
 #earth{
   color: #00AD3A;
 }
