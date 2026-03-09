@@ -55,6 +55,10 @@ h3{
   font-size: 1em;
 }
 
+body br{
+  padding: 10px;
+}
+
 /*Navigation Bar*/
 .navbar{
   background-color: black;
@@ -108,6 +112,7 @@ h3{
 
 #MercuryFeauture{
   background-image: linear-gradient(to bottom, #ecd67e, #d4bf65, #d4c99c, #5767b4, #858fdd);
+  color: black;
 }
 
 #venus{
@@ -219,12 +224,12 @@ h3{
 
 .detail-grid{
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 60% 40%;
   padding: 0 20px;
 }
 
 .column-5 li{
-  padding: 50% 0 0 30px;
+  padding: 30px 0;
 }
 
 .moon{
