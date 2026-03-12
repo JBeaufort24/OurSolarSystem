@@ -146,6 +146,7 @@ body br{
 
 #EarthFeauture {
   background-image: linear-gradient(to bottom, #4f4cb0, #6b93d6, #e9eff9, #9fc164, #d8c596);
+  color: black;
 }
 
 #mars{
