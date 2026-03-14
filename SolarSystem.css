@@ -173,6 +173,10 @@ body br{
   background-image: linear-gradient(to bottom, #f48a36, #c77d4e, #b6732f, #725130, #b49b63)
 }
 
+#MarsMoon{
+  background-image: url(/SolarSystemImg/MarsMoon.jpg);
+}
+
 #jupiter{
   color: #EBB271;
 }
@@ -253,11 +257,11 @@ body br{
 .moon ul{
   text-align: left;
   padding: 0 10px;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .moon li{
   padding: 5px 0;
-  background-color: rgba(0, 0, 0, 0.2);
 }
 
 table{
@@ -274,6 +278,10 @@ td, th{
 
 th{
   background-color: grey;
+}
+
+td:first-child{
+  font-weight: 800;
 }
 
 .explore{
