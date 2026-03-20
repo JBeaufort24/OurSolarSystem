@@ -181,6 +181,23 @@ body br{
   color: #EBB271;
 }
 
+#JupiterHead {
+  background-image: url(/SolarSystemImg/JupiterHead.jpg);
+}
+
+#JupiterOverview {
+  background-image: url(/SolarSystemImg/JupiterOverview.jpeg);
+}
+
+#JupiterFeauture {
+  background-image: linear-gradient(to bottom, #ebf3f6, #e3dccb, #d8ca9d, #a59186, #c99039);
+  color: black;
+}
+
+#JupiterMoon {
+  background-image: url(/SolarSystemImg/JupiterMoon.jpg);
+}
+
 #saturn{
   color: #EFFF58;
 }
