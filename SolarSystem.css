@@ -202,6 +202,23 @@ body br{
   color: #EFFF58;
 }
 
+#SaturnHead {
+  background-image: url(/SolarSystemImg/SaturnHead.jpg);
+}
+
+#SaturnOverview {
+  background-image: url(/SolarSystemImg/SaturnOverview.jpg);
+}
+
+#SaturnFeauture {
+  background-image: linear-gradient(to bottom, #ebf3f6, #e3dccb, #d8ca9d, #a59186, #c99039);
+  color: black;
+}
+
+#SaturnMoon {
+  background-image: url(/SolarSystemImg/SatuenMoon.webp);
+}
+
 #uranus{
   color: #0062FF;
 }
@@ -218,15 +235,11 @@ body br{
   
 /*Sections*/
 .overview {
-  background-image: url(/SolarSystemImg/SolarSystemOverview.jpg);
+  background-color: rgba(0, 0, 0, 0.30);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
-}
-
-.overview p {
-  background-color: rgba(0, 0, 0, 0.30);
 }
 
 .facts{
@@ -264,7 +277,7 @@ body br{
 
 .moon{
   text-align: right;
-  background-image: url(/SolarSystemImg/SolarMoons.jpg);
+  background-color :rgba(0, 0, 0, 0.80);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -274,7 +287,6 @@ body br{
 .moon ul{
   text-align: left;
   padding: 0 10px;
-  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .moon li{
@@ -286,7 +298,6 @@ table{
   text-align: center;
   width: 100%;
   margin-top: 10px;
-  background-color: rgba(0, 0, 0, 0.2);
 }
 
 td, th{
