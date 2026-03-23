@@ -223,6 +223,23 @@ body br{
   color: #0062FF;
 }
 
+#UranusHead {
+  background-image: url(/SolarSystemImg/UranusHead.jpeg);
+}
+
+#UranusOverview {
+  background-image: url(/SolarSystemImg/UranusOverview.jpg);
+}
+
+#SaturnFeauture {
+  background-image: linear-gradient(to bottom, #ebf3f6, #e3dccb, #d8ca9d, #a59186, #c99039);
+  color: black;
+}
+
+#UranusMoon {
+  background-image: url(/SolarSystemImg/UranusMoon.jpg);
+}
+
 #neptune{
   color: #00FFD0;
 }
@@ -277,11 +294,16 @@ body br{
 
 .moon{
   text-align: right;
-  background-color :rgba(0, 0, 0, 0.80);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
+  
+}
+
+.MoonSection{
+  background-color :rgba(0, 0, 0, 0.80);
+  z-index: 100;
 }
 
 .moon ul{
