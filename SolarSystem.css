@@ -231,8 +231,8 @@ body br{
   background-image: url(/SolarSystemImg/UranusOverview.jpg);
 }
 
-#SaturnFeauture {
-  background-image: linear-gradient(to bottom, #ebf3f6, #e3dccb, #d8ca9d, #a59186, #c99039);
+#UranusFeauture {
+  background-image: linear-gradient(to bottom, #5b5ddf, #3f54ba, #274687, #d5d5ec, #85addb); 
   color: black;
 }
 
