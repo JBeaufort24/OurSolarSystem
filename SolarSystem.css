@@ -232,7 +232,7 @@ body br{
 }
 
 #UranusFeauture {
-  background-image: linear-gradient(to bottom, #5b5ddf, #3f54ba, #274687, #d5d5ec, #85addb); 
+  background-image: linear-gradient(to bottom, #e1eeee, #d1e7e7, #c6d3e3, #f8f8ff, #d9ddfe); 
   color: black;
 }
 
@@ -242,6 +242,23 @@ body br{
 
 #neptune{
   color: #00FFD0;
+}
+
+#NeptuneHead {
+  background-image: url(/SolarSystemImg/NeptuneHead.jpeg);
+}
+
+#NeptuneOverview {
+  background-image: url(/SolarSystemImg/NeptuneOverview.jpeg);
+}
+
+#NeptuneFeauture {
+  background-image: linear-gradient(to bottom, #5b5ddf, #3f54ba, #274687, #d5d5ec, #85addb);
+  color: black;
+}
+
+#NeptuneMoon {
+  background-image: url(/SolarSystemImg/NeptuneMoon.jpg);
 }
 
 .navbar a:hover{
@@ -286,10 +303,6 @@ body br{
   display: grid;
   grid-template-columns: 60% 40%;
   padding: 10px 20px;
-}
-
-.column-5 li{
-  padding-top: 20px;
 }
 
 .moon{
