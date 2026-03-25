@@ -16,8 +16,7 @@ p{
 
 /*Header*/
 .header{
-  background-image: url("/SolarSystemImg/SolarSystemHeader.png");
-    height: 80vh;
+   height: 80vh;
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -84,6 +83,22 @@ body br{
 /*Planets Colors*/
 #solar{
   color: whitesmoke;
+}
+
+#SolarHead {
+  background-image: url(/SolarSystemImg/SolarHead.png);
+}
+
+#SolarOverview {
+  background-image: url(/SolarSystemImg/SolarOverview.jpg);
+}
+
+#SolarFeauture {
+  background-image: linear-gradient(to bottom, #f48a36, #c77d4e, #b6732f, #725130, #b49b63)
+}
+
+#SolarMoon {
+  background-image: url(/SolarSystemImg/SolarMoons.jpg);
 }
 
 #sun{
@@ -305,13 +320,16 @@ body br{
   padding: 10px 20px;
 }
 
+.detail-grid li{
+  padding: 10px 0;
+}
+
 .moon{
   text-align: right;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
-  
 }
 
 .MoonSection{
@@ -319,13 +337,9 @@ body br{
   z-index: 100;
 }
 
-.moon ul{
-  text-align: left;
-  padding: 0 10px;
-}
-
 .moon li{
   padding: 5px 0;
+  text-align: justify;
 }
 
 table{
