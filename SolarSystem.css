@@ -192,6 +192,9 @@ body br{
 
 #MarsMoon{
   background-image: url(/SolarSystemImg/MarsMoon.jpg);
+  background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
 #jupiter{
@@ -334,7 +337,20 @@ body br{
 .moon li{
   padding: 5px 0;
   text-align: justify;
-  background-color :rgba(0, 0, 0, 0.80)
+  background-color :rgba(0, 0, 0, 0.20);
+}
+
+.moon p{
+  text-align: left;
+  background-color :rgba(0, 0, 0, 0.20);
+}
+
+.moon h3{
+  background-color :rgba(0, 0, 0, 0.20);
+}
+
+.moon h4{
+  background-color :rgba(0, 0, 0, 0.20);
 }
 
 table{
@@ -342,6 +358,7 @@ table{
   text-align: center;
   width: 100%;
   margin-top: 10px;
+  background-color :rgba(0, 0, 0, 0.20);
 }
 
 td, th{
