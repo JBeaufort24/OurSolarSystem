@@ -88,7 +88,7 @@ body br{
 }
 
 #SolarHead {
-  background-image: url(/SolarSystemImg/SolarHead.png);
+  background-image: url(/SolarSystemImg/SolarHead.webp);
 }
 
 #SolarOverview {
@@ -101,6 +101,9 @@ body br{
 
 #SolarMoon {
   background-image: url(/SolarSystemImg/SolarMoons.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #sun{
@@ -216,6 +219,7 @@ body br{
 
 #JupiterMoon {
   background-image: url(/SolarSystemImg/JupiterMoon.jpg);
+  color: black;
 }
 
 #saturn{
@@ -247,7 +251,7 @@ body br{
 }
 
 #UranusHead {
-  background-image: url(/SolarSystemImg/UranusHead.jpeg);
+  background-image: url(/SolarSystemImg/UranusHead.jpg);
 }
 
 #UranusOverview {
