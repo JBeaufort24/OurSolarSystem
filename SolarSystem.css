@@ -14,8 +14,6 @@ p{
   padding: 10px 20px;
 }
 
-img{}
-
 /*Header*/
 .header{
    height: 80vh;
@@ -60,10 +58,6 @@ h4{
   font-size: 1em;
 }
 
-body br{
-  padding: 10px;
-}
-
 /*Navigation Bar*/
 .navbar{
   background-color: black;
@@ -72,226 +66,20 @@ body br{
   text-align: center;
   display: flex;
   overflow: scroll;
+  padding: 10px 0;
+}
+
+.navbar img{
+  width: 50px;
+  height: 50px;
 }
 
 .navbar li{
-  padding: 50px 40px;
+  padding: 0 40px;
 }
 
 .navbar a{
   text-decoration: none;
-}
-
-/*Planets Colors*/
-#solar{
-  color: whitesmoke;
-}
-
-#SolarHead {
-  background-image: url(/SolarSystemImg/SolarHead.webp);
-}
-
-#SolarOverview {
-  background-image: url(/SolarSystemImg/SolarOverview.jpg);
-}
-
-#SolarFeauture {
-  background-image: linear-gradient(to bottom, #f48a36, #c77d4e, #b6732f, #725130, #b49b63)
-}
-
-#SolarMoon {
-  background-image: url(/SolarSystemImg/SolarMoons.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#sun{
-  color: orangered;
-}
-
-#TheSun{
-  background-image: url(/SolarSystemImg/TheSunHeader.webp);
-}
-
-#SunOverview{
-  background-image: url(/SolarSystemImg/TheSunOverview.webp);
-}
-
-#TheSunFeauture{
-  background-image: linear-gradient(to bottom, #C12600, #DA2B27, #EA5A3E, #F68656, #8A0000);
-}
-
-#mercury{
-  color: #856359;
-} 
-
-#MercuryHead{
-  background-image: url(/SolarSystemImg/MercuryHead.jpg);
-}
-
-#MercuryOverview{
-  background-image: url(/SolarSystemImg/MercuryOverview.jpg);
-}
-
-#MercuryFeauture{
-  background-image: linear-gradient(to bottom, #ecd67e, #d4bf65, #d4c99c, #5767b4, #858fdd);
-  color: black;
-}
-
-#venus{
-  color: #FFF9A8;
-}
-
-#VenusHead {
-  background-image: url(/SolarSystemImg/VenusHead.jpg);
-}
-
-#VenusOverview {
-  background-image: url(/SolarSystemImg/VenusOverview.jpg);
-}
-
-#VenusFeauture {
-  background-image: linear-gradient(to bottom, #a57c1b, #c18f17, #e39e1c, #f9c21a, #e7d520);
-  color: black;
-}
-
-#earth{
-  color: #00AD3A;
-}
-
-#EarthHead {
-  background-image: url(/SolarSystemImg/EarthHead.jpg);
-}
-
-#EarthOverview {
-  background-image: url(/SolarSystemImg/EarthOverview.jpg);
-}
-
-#EarthFeauture {
-  background-image: linear-gradient(to bottom, #4f4cb0, #6b93d6, #e9eff9, #9fc164, #d8c596);
-  color: black;
-}
-
-#EarthMoon{
-  background-image: url(/SolarSystemImg/EarthMoon.jpg);
-}
-
-#mars{
-  color: #D15E5E;
-}
-
-#MarsHead {
-  background-image: url(/SolarSystemImg/MarsHead.jpg);
-}
-
-#MarsOverview {
-  background-image: url(/SolarSystemImg/MarsOverview.jpg);
-}
-
-#MarsFeauture {
-  background-image: linear-gradient(to bottom, #f48a36, #c77d4e, #b6732f, #725130, #b49b63)
-}
-
-#MarsMoon{
-  background-image: url(/SolarSystemImg/MarsMoon.jpg);
-  background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-}
-
-#jupiter{
-  color: #EBB271;
-}
-
-#JupiterHead {
-  background-image: url(/SolarSystemImg/JupiterHead.jpg);
-}
-
-#JupiterOverview {
-  background-image: url(/SolarSystemImg/JupiterOverview.jpeg);
-}
-
-#JupiterFeauture {
-  background-image: linear-gradient(to bottom, #ebf3f6, #e3dccb, #d8ca9d, #a59186, #c99039);
-  color: black;
-}
-
-#JupiterMoon {
-  background-image: url(/SolarSystemImg/JupiterMoon.jpg);
-  color: black;
-}
-
-#saturn{
-  color: #EFFF58;
-}
-
-#SaturnHead {
-  background-image: url(/SolarSystemImg/SaturnHead.jpg);
-}
-
-#SaturnOverview {
-  background-image: url(/SolarSystemImg/SaturnOverview.jpg);
-}
-
-#SaturnFeauture {
-  background-image: linear-gradient(to bottom, #ebf3f6, #e3dccb, #d8ca9d, #a59186, #c99039);
-  color: black;
-}
-
-#SaturnMoon {
-  background-image: url(/SolarSystemImg/SatuenMoon.webp);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#uranus{
-  color: #0062FF;
-}
-
-#UranusHead {
-  background-image: url(/SolarSystemImg/UranusHead.jpg);
-}
-
-#UranusOverview {
-  background-image: url(/SolarSystemImg/UranusOverview.jpg);
-}
-
-#UranusFeauture {
-  background-image: linear-gradient(to bottom, #e1eeee, #d1e7e7, #c6d3e3, #f8f8ff, #d9ddfe); 
-  color: black;
-}
-
-#UranusMoon {
-  background-image: url(/SolarSystemImg/UranusMoon.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#neptune{
-  color: #00FFD0;
-}
-
-#NeptuneHead {
-  background-image: url(/SolarSystemImg/NeptuneHead.jpeg);
-}
-
-#NeptuneOverview {
-  background-image: url(/SolarSystemImg/NeptuneOverview.jpeg);
-}
-
-#NeptuneFeauture {
-  background-image: linear-gradient(to bottom, #5b5ddf, #3f54ba, #274687, #d5d5ec, #85addb);
-  color: black;
-}
-
-#NeptuneMoon {
-  background-image: url(/SolarSystemImg/NeptuneMoon.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .navbar a:hover{
@@ -306,7 +94,6 @@ body br{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: auto;
 }
 
 .facts{
@@ -319,10 +106,10 @@ body br{
 }
 
 .facts li {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.5);
   padding: 10px;
   margin: 0 5px 0 5px;
-  border-radius: 100px;
+  border-radius: 10px;
   text-align: center;
   align-content: center;
 }
@@ -371,7 +158,7 @@ table{
   border-collapse: collapse;
   text-align: center;
   width: 100%;
-  margin-top: 10px;
+  padding-top: 10px;
   background-color :rgba(0, 0, 0, 0.20);
 }
 
@@ -423,4 +210,252 @@ footer span a {
 
 footer span a:hover {
   text-decoration: underline;
+}
+
+/*Planets Colors*/
+#solar {
+  color: whitesmoke;
+}
+
+#SolarHead {
+  background-image: url(/SolarSystemImg/SolarHead.webp);
+}
+
+#SolarOverview {
+  background-image: url(/SolarSystemImg/SolarOverview.jpg);
+}
+
+#SolarFeauture {
+  background-image: linear-gradient(to bottom, #f48a36, #c77d4e, #b6732f, #725130, #b49b63)
+}
+
+#SolarMoon {
+  background-image: url(/SolarSystemImg/SolarMoons.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#sun {
+  color: orangered;
+}
+
+#TheSun {
+  background-image: url(/SolarSystemImg/TheSunHeader.webp);
+}
+
+#SunOverview {
+  background-image: url(/SolarSystemImg/TheSunOverview.webp);
+}
+
+#TheSunFeauture {
+  background-image: linear-gradient(to bottom, #C12600, #DA2B27, #EA5A3E, #F68656, #8A0000);
+}
+
+#mercury {
+  color: #856359;
+}
+
+#MercuryHead {
+  background-image: url(/SolarSystemImg/MercuryHead.jpg);
+}
+
+#MercuryOverview {
+  background-image: url(/SolarSystemImg/MercuryOverview.jpg);
+}
+
+#MercuryFeauture {
+  background-image: linear-gradient(to bottom, #ecd67e, #d4bf65, #d4c99c, #5767b4, #858fdd);
+  color: black;
+}
+
+#venus {
+  color: #FFF9A8;
+}
+
+#VenusHead {
+  background-image: url(/SolarSystemImg/VenusHead.jpg);
+}
+
+#VenusOverview {
+  background-image: url(/SolarSystemImg/VenusOverview.jpg);
+}
+
+#VenusFeauture {
+  background-image: linear-gradient(to bottom, #a57c1b, #c18f17, #e39e1c, #f9c21a, #e7d520);
+  color: black;
+}
+
+#earth {
+  color: #00AD3A;
+}
+
+#EarthHead {
+  background-image: url(/SolarSystemImg/EarthHead.jpg);
+}
+
+#EarthOverview {
+  background-image: url(/SolarSystemImg/EarthOverview.jpg);
+}
+
+#EarthFeauture {
+  background-image: linear-gradient(to bottom, #4f4cb0, #6b93d6, #e9eff9, #9fc164, #d8c596);
+  color: black;
+}
+
+#EarthMoon {
+  background-image: url(/SolarSystemImg/EarthMoon.jpg);
+}
+
+#mars {
+  color: #D15E5E;
+}
+
+#MarsHead {
+  background-image: url(/SolarSystemImg/MarsHead.jpg);
+}
+
+#MarsOverview {
+  background-image: url(/SolarSystemImg/MarsOverview.jpg);
+}
+
+#MarsFeauture {
+  background-image: linear-gradient(to bottom, #f48a36, #c77d4e, #b6732f, #725130, #b49b63)
+}
+
+#MarsMoon {
+  background-image: url(/SolarSystemImg/MarsMoon.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#jupiter {
+  color: #EBB271;
+}
+
+#JupiterHead {
+  background-image: url(/SolarSystemImg/JupiterHead.jpg);
+}
+
+#JupiterOverview {
+  background-image: url(/SolarSystemImg/JupiterOverview.jpeg);
+}
+
+#JupiterFeauture {
+  background-image: linear-gradient(to bottom, #ebf3f6, #e3dccb, #d8ca9d, #a59186, #c99039);
+  color: black;
+}
+
+#JupiterMoon {
+  background-image: url(/SolarSystemImg/JupiterMoon.jpg);
+  color: black;
+}
+
+#saturn {
+  color: #EFFF58;
+}
+
+#SaturnHead {
+  background-image: url(/SolarSystemImg/SaturnHead.jpg);
+}
+
+#SaturnOverview {
+  background-image: url(/SolarSystemImg/SaturnOverview.jpg);
+}
+
+#SaturnFeauture {
+  background-image: linear-gradient(to bottom, #ebf3f6, #e3dccb, #d8ca9d, #a59186, #c99039);
+  color: black;
+}
+
+#SaturnMoon {
+  background-image: url(/SolarSystemImg/SatuenMoon.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#uranus {
+  color: #00FFD0;
+}
+
+#UranusHead {
+  background-image: url(/SolarSystemImg/UranusHead.jpg);
+}
+
+#UranusOverview {
+  background-image: url(/SolarSystemImg/UranusOverview.jpg);
+}
+
+#UranusFeauture {
+  background-image: linear-gradient(to bottom, #e1eeee, #d1e7e7, #c6d3e3, #f8f8ff, #d9ddfe);
+  color: black;
+}
+
+#UranusMoon {
+  background-image: url(/SolarSystemImg/UranusMoon.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#neptune {
+  color: #0062FF;
+}
+
+#NeptuneHead {
+  background-image: url(/SolarSystemImg/NeptuneHead.jpeg);
+}
+
+#NeptuneOverview {
+  background-image: url(/SolarSystemImg/NeptuneOverview.jpeg);
+}
+
+#NeptuneFeauture {
+  background-image: linear-gradient(to bottom, #5b5ddf, #3f54ba, #274687, #d5d5ec, #85addb);
+  color: black;
+}
+
+#NeptuneMoon {
+  background-image: url(/SolarSystemImg/NeptuneMoon.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*Media Queries*/
+@media only screen and (max-width: 500px){
+  .navbar {
+  display: inline;
+}
+
+.navbar li {
+  padding: 10px 5px;
+}
+
+li.space-holder, .navbar img{
+  display: none;
+}
+
+.facts ul {
+  display: inline;
+}
+
+.facts li{
+  margin: 10px 0;
+}
+
+.center-text, .right-text {
+  text-align: left;
+}
+
+.detail-grid {
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+td, th{
+  padding: 1px;
+}
 }
