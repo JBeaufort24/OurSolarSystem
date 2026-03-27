@@ -193,6 +193,34 @@ td:first-child{
 .explore{
   display: grid;
   grid-template-columns: 50% 50%;
+  font-size: .8em;
+}
+
+.explore li{
+  padding: 5px 0;
+}
+
+input[type=text], input[type=submit]{
+  width: 90%;
+  padding: 10px 0;
+  display: inline-block;
+  background-color: rgba(164, 172, 255, 0.1);
+  color: whitesmoke;
+  border: none;
+}
+
+input[type=submit]:hover{
+  opacity: 0.8;
+}
+
+.subscribe{
+  padding-top: 10px;
+}
+
+.Planet-grid{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 10px 0;
 }
 
 /*Footer*/
@@ -457,5 +485,14 @@ li.space-holder, .navbar img{
 
 td, th{
   padding: 1px;
+}
+
+.explore {
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+input[type=text], input[type=submit]{
+  width: 100%;
 }
 }
