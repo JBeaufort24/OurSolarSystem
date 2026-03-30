@@ -223,10 +223,14 @@ input[type=submit]:hover{
   padding: 10px 0;
 }
 
-/*.Planet-grid a{
+.Planet-grid a{
   text-decoration: none;
   color: whitesmoke;
-}*/
+
+.construction h1{
+  padding: 100%;
+  font-size: 5em;
+}
 
 /*Footer*/
 footer {
@@ -499,5 +503,6 @@ td, th{
 
 input[type=text], input[type=submit]{
   width: 100%;
+}
 }
 }

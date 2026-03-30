@@ -1,0 +1,35 @@
+/*Construction Site*/
+*{
+  padding: 0;
+  margin: 0;
+  max-height: 100vh;
+}
+.construction {
+  background-color: lightgray;
+  text-align: center;
+}
+
+.construction h1{
+  font-size: 4em;
+  margin: 10px;
+}
+
+.construction h2{
+  font-size: 2em;
+}
+
+.construction h3{
+  font-size: 1.1em;
+}
+
+.construction a{
+  background-color: gray;
+  font-size: 1.2em;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  padding: 10px;
+  border-radius: 30px;
+  color: white;
+  text-decoration: none;
+}
